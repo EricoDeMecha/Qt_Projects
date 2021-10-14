@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>749</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true">#stackedWidget{
+background-image: url(&quot;:/file/pentHouse.jpg&quot;);
+}</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_3">
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>701</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="styleSheet">
+              <string notr="true">#label{
+font: 75 oblique 18pt &quot;DejaVu Sans&quot;;
+background-color: rgb(115, 210, 22);
+border: 2x solid rgb(173, 127, 168);
+border-radius: 4px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Simple admission interface</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="styleSheet">
+              <string notr="true">#label_2 {
+font: 14pt &quot;DejaVu Serif&quot;;
+border : 1px solid rgb(252, 233, 79);
+background-color: rgb(136, 138, 133);
+border-radius: 5px;
+}</string>
+             </property>
+             <property name="text">
+              <string>MYSQL DB in the background</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="styleSheet">
+              <string notr="true">#pushButton_3 {
+font: italic 12pt &quot;Carlito&quot;;
+border: 2px solid rgb(114, 159, 207);
+border-radius: 10px;
+padding: 3px;
+background-color: rgb(237, 147, 147);
+}</string>
+             </property>
+             <property name="text">
+              <string>Admin</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="styleSheet">
+              <string notr="true">#pushButton_2 {
+font: italic 12pt &quot;Carlito&quot;;
+border: 2px solid rgb(114, 159, 207);
+border-radius: 10px;
+padding: 3px;
+background-color: rgb(237, 147, 147);
+}</string>
+             </property>
+             <property name="text">
+              <string>Client</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="styleSheet">
+              <string notr="true">#pushButton {
+font: italic 12pt &quot;Carlito&quot;;
+border: 2px solid rgb(114, 159, 207);
+border-radius: 10px;
+padding: 3px;
+background-color: rgb(237, 147, 147);
+}</string>
+             </property>
+             <property name="text">
+              <string>About</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QWidget" name="gridLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>691</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QPushButton" name="add_client">
+             <property name="styleSheet">
+              <string notr="true">#add_client{
+font: italic 12pt &quot;Carlito&quot;;
+border: 2px solid rgb(114, 159, 207);
+border-radius: 10px;
+padding: 3px;
+background-color: rgb(92, 183, 70);
+height: 80px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Add Client</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="1">
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QPushButton" name="del_client">
+             <property name="styleSheet">
+              <string notr="true">#del_client{
+font: italic 12pt &quot;Carlito&quot;;
+border: 2px solid rgb(114, 159, 207);
+border-radius: 10px;
+padding: 3px;
+background-color: rgb(61, 158, 158);
+height: 80px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Delete client</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QPushButton" name="client_list">
+             <property name="styleSheet">
+              <string notr="true">#client_list{
+font: italic 12pt &quot;Carlito&quot;;
+border: 2px solid rgb(114, 159, 207);
+border-radius: 10px;
+padding: 3px;
+background-color: rgb(77, 48, 196);
+height: 80px;
+}</string>
+             </property>
+             <property name="text">
+              <string>View client list</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="1">
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QPushButton" name="view_logs">
+             <property name="styleSheet">
+              <string notr="true">#view_logs{
+font: italic 12pt &quot;Carlito&quot;;
+border: 2px solid rgb(114, 159, 207);
+border-radius: 10px;
+padding: 3px;
+background-color: rgb(158, 76, 178);
+height: 80px;
+}</string>
+             </property>
+             <property name="text">
+              <string>View  logs</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAdmin">
+   <property name="text">
+    <string>Admin</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

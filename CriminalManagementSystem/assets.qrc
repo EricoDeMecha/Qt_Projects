@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/user_icon.png</file>
+        <file>assets/police_report.png</file>
+        <file>assets/add-list.png</file>
+        <file>assets/cancel.png</file>
+        <file>assets/combine.png</file>
+        <file>assets/delete.png</file>
+        <file>assets/floppy-disk.png</file>
+        <file>assets/print.png</file>
+        <file>assets/run.png</file>
+        <file>assets/tag.png</file>
+    </qresource>
+</RCC>

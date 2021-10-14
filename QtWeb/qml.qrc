@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>icons8-go-40.png</file>
+        <file>icons8-left-24.png</file>
+        <file>icons8-refresh-30.png</file>
+        <file>icons8-right-24.png</file>
+        <file>LoadProgressStyle.qml</file>
+    </qresource>
+</RCC>
